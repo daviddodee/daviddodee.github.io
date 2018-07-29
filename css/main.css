@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 @import url('https://fonts.googleapis.com/css?family=El+Messiri:600');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:700');
 
 
 .phone__adv{
@@ -34,7 +35,8 @@
 	text-decoration: none;
 	border-radius: 15px;
 	color: white;
-	border: 2px solid black;
+	border: 1px solid black;
+	box-shadow: 0 -3px rgb(53,167,110) inset;
 }
 
 .order_b a:hover { background: rgb(46, 45, 48);
@@ -53,6 +55,10 @@
 	margin-top: 2%;
 	text-align: center;
 	margin-bottom: 220px;
+	font-family: 'Ubuntu', sans-serif;
+}
+.phone_list{
+	background-color: rgb(253, 253, 253);
 }
 .phone_list h2{
 	color: #333333;
@@ -121,18 +127,61 @@ color: black;
 }
 
 .iphones__item h4{
-	font-size: 1.2em;
+	font-size: 1.1em;
 }
 
 .price{
 	font-size: 1.4em;
 	font-weight: 700;
-}
+}	
 .price_red{
-	font-size: 1.1em;
+	font-size: 1em;
 	color: rgb(201, 60, 60);
 	text-decoration: line-through;
 }
 hr{
 	margin-top: 10px;
+}
+.pluses1{
+	margin-top: 5%;
+	text-align: center;
+	border: 2px solid red;
+	height: 250px;
+	background: background:url('../img/all_iphones.jpg') no-repeat center center;
+}
+.pluses2{
+	margin-top: 5%;
+	text-align: center;
+	border: 2px solid red;
+	height: 250px;
+	background: yellow;
+}
+.pluses3{
+	margin-top: 5%;
+	text-align: center;
+	border: 2px solid red;
+	height: 250px;
+	background: orange;
+}
+.pluses4{
+	margin-top: 5%;
+	text-align: center;
+	border: 2px solid red;
+	height: 250px;
+	background: blue;
+}
+.all_iphones_pic{
+	
+}
+.all_iphones_pic1 p{
+	margin-top: 25px;
+}
+.all_iphones_pic2 p{
+	margin-top: 25px;
+}
+.all_iphones_pic3 p{
+	margin-top: 25px;
+}
+.all_iphones_pic4 p{
+	margin-top: 25px;
 }
